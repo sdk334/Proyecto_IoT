@@ -25,7 +25,7 @@ La arquitectura se divide en tres capas interconectadas:
 ## 4. Árbol de Tópicos MQTT
 El sistema utiliza una estructura jerárquica, empleando niveles de Calidad de Servicio
 
-| Tópico | QoS | Descripción | Dirección |
+| Tópico | num | Descripción | Dirección |
 | :--- | :---: | :--- | :---: |
 | `escom/iot/hidroponia/sensores/temperatura` | 0 | Lectura de temperatura ambiente | ESP32 -> Broker |
 | `escom/iot/hidroponia/sensores/nivel_agua` | 1 | Nivel del tanque de solución | ESP32 -> Broker |
